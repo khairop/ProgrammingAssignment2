@@ -2,6 +2,10 @@
 ## functions do
 
 ## Write a short comment describing this function
+## changing only two points from the original example
+## the calling variable should be matrix
+
+
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -22,7 +26,7 @@ setmean <- function(mean) {
   list(set = set, get = get,
        setmean = setmean,
        getmean = getmean)
-  }
+  
 
   
   
@@ -30,7 +34,9 @@ setmean <- function(mean) {
 }
 
 
+
 ## Write a short comment describing this function
+## using the solve function instead of mean of the original example
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
